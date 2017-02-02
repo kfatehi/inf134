@@ -1,24 +1,22 @@
 {
   "name": "inf134",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.2.5",
+  "description": "A Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kfatehi/inf134.git"
+    "url": "https://github.com/kfatehi/inf134"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kfatehi/inf134/issues"
-  },
-  "homepage": "https://github.com/kfatehi/inf134#readme",
-  "dependencies": {
-    "express": "^4.14.1"
-  }
+  "license": "MIT"
 }
