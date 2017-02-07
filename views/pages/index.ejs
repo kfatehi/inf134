@@ -2,11 +2,55 @@
 <html>
 <head>
   <% include ../partials/head.ejs %>
+
+    <script type="text/javascript" src="raphael.min.js"></script>
+    <script type="text/javascript" src="raphael.icons.min.js"></script>
+    <script type="text/javascript" src="wheelnav.min.js"></script>
 </head>
 
 <body>
   <h1>hello inf134!</h1>
-  <img src="/img/globe.gif"/>
+    <div id="wheelDiv"></div>
+
+    <!-- Insert generated HTML5 code from here -> http://pmg.softwaretailoring.net -->
+        <div id='piemenu' data-wheelnav
+
+            data-wheelnav-slicepath='DonutSlice'
+            data-wheelnav-spreader data-wheelnav-spreaderpath='PieSpreader'
+            data-wheelnav-marker data-wheelnav-markerpath='PieLineMarker'
+            data-wheelnav-rotateoff
+            data-wheelnav-navangle='270'
+            data-wheelnav-titleheight='45'
+            data-wheelnav-cssmode 
+            data-wheelnav-init>
+
+            <!-- WE MUST CREDIT AUTHOR FOR THIS STUFF-->
+            <div data-wheelnav-navitemimg='https://image.flaticon.com/icons/svg/46/46564.svg' onmouseup='alert("Will open Topic 1");'></div>
+            <div data-wheelnav-navitemimg='https://image.flaticon.com/icons/png/512/67/67899.png' onmouseup='alert("Will open Topic 2.");'></div>
+            <div data-wheelnav-navitemimg='https://image.flaticon.com/icons/svg/263/263145.svg' onmouseup='alert("Will open Topic 3.");'></div>
+            <div data-wheelnav-navitemimg='https://image.flaticon.com/icons/svg/33/33609.svg' onmouseup='alert("Will open Topic 4.");'></div>
+            <div data-wheelnav-navitemimg='https://image.flaticon.com/icons/svg/47/47502.svg' onmouseup='alert("Will open Topic 5.");'></div>
+        </div>
+
+
   <p>this site is hosted on heroku and powered by Node.JS.</p>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+
+            //Insert generated JavaScript code from here -> http://pmg.softwaretailoring.net
+
+            var piemenu = new wheelnav('piemenu');
+            piemenu.spreaderInTitle = icon.plus;
+            piemenu.spreaderOutTitle = icon.cross;
+            piemenu.spreaderRadius = piemenu.wheelRadius * 0.4;
+            piemenu.clockwise = false;
+            piemenu.wheelRadius = piemenu.wheelRadius * 1;
+            piemenu.createWheel();
+            /*       */
+        };
+
+    </script>
 </body>
 </html>
