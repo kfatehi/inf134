@@ -11,6 +11,7 @@
     "deploy": "git push heroku master"
   },
   "dependencies": {
+    "d3": "^4.5.0",
     "ejs": "2.4.1",
     "express": "4.13.3"
   },
