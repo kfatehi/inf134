@@ -1,5 +1,5 @@
-label,count
-Deforestation,1
-Pollution,1
-Species Extinction,1
-Climate Change,1
+id,label,img
+deforestation,Deforestation,/img/HomeDeforest.jpg
+pollution,Pollution,/img/pollutionhome.jpg
+species-extinction,Species Extinction,/img/SpeciesExtinction.jpg
+climate-change,Climate Change,/img/climatehome.jpg
