@@ -5,8 +5,8 @@
 
 var width = innerWidth;
 var height = innerHeight;
-var radius = innerWidth/4;
-var donutWidth = innerHeight/2;
+var radius = 175;
+var donutWidth = 75;
 var color = d3.scaleOrdinal(d3.schemeCategory20b);
 var svg = d3.select('#chart')
   .append('svg')
