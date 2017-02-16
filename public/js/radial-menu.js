@@ -46,4 +46,8 @@ d3.csv('topics.csv', function(error, dataset) {
     .append('path')
     .attr('d', arc)
     .attr("fill", (d)=>`url(#${d.data.id})`)
+    .attr('style', 'cursor:pointer')
+    .on('click', (d)=>{
+      window.location = '/'+d.data.id;
+    });
 });
