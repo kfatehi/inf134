@@ -3,23 +3,59 @@
 <head>
   <title>inf134 app</title>
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
-  <link rel="stylesheet" type="text/css" href="/css/radial-menu.css" />
+  <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="/lib/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body>
-  <div style="
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  " class="donut">DONUT HERE</div>
-  <% topics.forEach(topic => { %>
-    <div style="
-      display: inline-block;
-      float: left;
-      width: calc(100vw / 2);
-      height: calc(100vh / 2);
-      background: url(<%= topic.img %>) left top / cover no-repeat;
-      "
-      class="<%= topic.id %>"></div>
-  <% }) %>
+<body style="margin: 0;padding: 0;">
+  <nav class="navbar navbar-default" style="
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  ">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        EnlightEarth.me
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <% topics.forEach(topic => { %>
+          <li><a href="/<%= topic.id %>"><%= topic.label %></a></li>
+        <% }) %>
+      </ul>
+    </div>
+  </nav>
+
+  <div style="position: absolute;">
+    <div class="donut" style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: <%= donutSize %>;
+      width: <%= donutSize %>;
+      background: white;
+      border-radius: <%= donutSize %>;
+    "></div>
+    <% topics.forEach(topic => { %>
+      <a href="/<%= topic.id %>" class="<%= topic.id %>" style="
+        display: inline-block;
+        float: left;
+        width: calc(100vw / 2);
+        height: calc(100vh / 2);
+        background: url(<%= topic.img %>) center center / cover no-repeat;
+        "></a>
+    <% }) %>
+  </div>
 </body>
 </html>

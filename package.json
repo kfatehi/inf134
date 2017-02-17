@@ -11,9 +11,12 @@
     "deploy": "git push heroku master"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "csv-parse": "^1.2.0",
     "d3": "^4.5.0",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "jquery": "^3.1.1"
   },
   "repository": {
     "type": "git",
