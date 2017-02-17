@@ -1,5 +1,18 @@
 var express = require('express');
 var app = express();
+var topics = [{
+  id: 'deforestation',
+  img: '/img/HomeDeforest.jpg',
+},{
+  id: 'pollution',
+  img: '/img/pollutionhome.jpg',
+},{
+  id: 'species-extinction',
+  img: '/img/SpeciesExtinction.jpg',
+},{
+  id: 'climate-change',
+  img: '/img/climatehome.jpg'
+}];
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -11,7 +24,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-  res.render('index');
+  res.render('index', { topics });
 });
 
 app.listen(app.get('port'), function() {

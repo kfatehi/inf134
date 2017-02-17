@@ -6,9 +6,20 @@
   <link rel="stylesheet" type="text/css" href="/css/radial-menu.css" />
 </head>
 <body>
-  <div id="chart"></div>
-
-  <script src="/js/lib/d3/build/d3.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="/js/radial-menu.js" type="text/javascript" charset="utf-8"></script>
+  <div style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  " class="donut">DONUT HERE</div>
+  <% topics.forEach(topic => { %>
+    <div style="
+      display: inline-block;
+      float: left;
+      width: calc(100vw / 2);
+      height: calc(100vh / 2);
+      background: url(<%= topic.img %>) left top / cover no-repeat;
+      "
+      class="<%= topic.id %>"></div>
+  <% }) %>
 </body>
 </html>

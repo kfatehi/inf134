@@ -30,15 +30,17 @@ function render(dataset) {
   dataset.forEach(function(item) {
     var height = innerHeight/2+100;
     var width = innerWidth/2+100;
-      defs.append("pattern")
+    defs.append("pattern")
       .attr("id", item.id)
       .attr('patternUnits', 'userSpaceOnUse')
       .attr('width', width)
       .attr('height', height)
       .append("image")
       .attr("xlink:href", item.img)
-      .attr('width', width+100)
-      .attr('height', height+100)
+      .attr('width', width)
+      .attr('height', height)
+      .attr('width', width)
+      .attr('height', height)
   });
 
   var path = g.selectAll('path')
