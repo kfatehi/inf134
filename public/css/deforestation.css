@@ -21,7 +21,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(../img/forest-whitespace.jpg);
+    background: url(../deforestation/img/forest-whitespace.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,7 +66,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/tent.jpg);
+    background: url(../deforestation/img/tent.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,7 +76,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/deforest.jpg);
+    background: url(../deforestation/img/deforest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -86,7 +86,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/slashnburn.jpg);
+    background: url(../deforestation/img/slashnburn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/koala.jpg);
+    background: url(../deforestation/img/koala.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,7 +106,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/forestsun.jpg);
+    background: url(../deforestation/img/forestsun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -21,7 +21,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/hotsun.jpeg);
+    background: url(../climate-change/img/hotsun.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/ice-sheet.jpeg);
+    background: url(../climate-change/img/ice-sheet.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/city-cars-traffic-lights.jpeg);
+    background: url(../climate-change/img/city-cars-traffic-lights.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
