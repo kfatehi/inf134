@@ -1,3 +1,124 @@
-p{
-  color: red;
+html,body{
+    margin: 0px;
+    padding: 0px;
 }
+
+
+/*maybe make the heading 2 seperate elements to make the bar have opacity and eventually implement the following header bar in JS*/
+#title{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 2px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    opacity: 1;
+}
+
+#page1{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/forest-whitespace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*see if i can make the background a video like a picture*/
+/*video#forestvid{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+
+}*/
+
+/*img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}*/
+
+
+#page2{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/tent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page3{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/deforest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page4{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/slashnburn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page5{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/koala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page6{
+    height:100vh;
+    min-height:100%;
+    max-height:100%;
+    background-size:cover;
+    background: url(img/forestsun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*scolling stuff. Use JS for it later*/
+/*#scroll1{
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    color: black;
+}
+
+*/
