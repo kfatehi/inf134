@@ -21,7 +21,6 @@ html,body{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(img/forest-whitespace.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
