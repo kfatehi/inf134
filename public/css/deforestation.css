@@ -13,7 +13,7 @@ html,body{
     margin-top: -10px;
     margin-right: -10px;
     margin-left: -10px;
-    opacity: 1;
+    opacity: .5;
 }
 
 #page1{
@@ -24,8 +24,39 @@ html,body{
     /*background: url(../deforestation/img/forest-whitespace.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
+.text{ 
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif; 
+    text-decoration: none;
+}
+a{
+    text-decoration: none; 
+    color: #87CEFA; 
+}
+a:hover{
+    text-decoration: underline;
+}
+#p1{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+#p2{ 
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 370px;
+    margin-left: 200px;
+    margin-right: 500px; 
+}
+#p3{
+    font-size: 20px;
+    margin-top:370px;
+    margin-left: 20px;
 
+}
 /*see if i can make the background a video like a picture*/
 /*video#forestvid{ 
     position: fixed;
@@ -141,6 +172,6 @@ video {
 }
 
 
-////////////////////////////////////////
+
 
   
