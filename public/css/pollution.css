@@ -5,7 +5,7 @@ html,body{
 
 
 /*maybe make the heading 2 seperate elements to make the bar have opacity and eventually implement the following header bar in JS*/
-#title{
+/*#title{
     text-align: center;
     background: black;
     color: white;
@@ -14,6 +14,17 @@ html,body{
     margin-right: -10px;
     margin-left: -10px;
     opacity: 1;
+}*/
+
+header{
+    position:fixed;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    opacity: .7;
 }
 
 #page1{
