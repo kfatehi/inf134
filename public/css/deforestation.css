@@ -48,14 +48,20 @@ a:hover{
     font-size: 16px;
     padding: 10px;
     margin-top: 370px;
-    margin-left: 200px;
-    margin-right: 500px; 
+    width: 380px;
+    margin-left: 290px;
+    position: absolute;
 }
 #p3{
     font-size: 20px;
-    margin-top:370px;
     margin-left: 20px;
+    width: 600px;
+    color: black;
+    font-weight: 900;
 
+}
+#p4{
+    
 }
 /*see if i can make the background a video like a picture*/
 /*video#forestvid{ 
@@ -107,7 +113,7 @@ a:hover{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(../deforestation/img/deforest.jpg);
+    background: url(../deforestation/img/wwfDeforest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,7 +123,8 @@ a:hover{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(../deforestation/img/slashnburn.jpg);
+    /*Credit:http://www.ucsusa.org/sites/default/files/legacy/assets/images/gw/Sumatra-land-clearing-istock.jpg*/
+    background: url(../deforestation/img/fireDeforestPalm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
