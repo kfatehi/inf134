@@ -15,6 +15,9 @@ header{
     top: 0;
     opacity: .7;
 }
+#gohome{
+    float: right;
+}
 
 .container{
     width: 100%;
