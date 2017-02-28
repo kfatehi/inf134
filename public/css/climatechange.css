@@ -41,7 +41,13 @@ Had to use padding-top instead for now
     padding-top: 500px;
     color: white;
 }
-
+#p5 ul a{
+    text-decoration: none;
+    color: cadetblue;
+}
+#p5 ul a:hover{
+    text-decoration: underline;
+}
 /*maybe make the heading 2 seperate elements to make the bar have opacity and eventually implement the following header bar in JS*/
 /*#title{
     text-align: center;
