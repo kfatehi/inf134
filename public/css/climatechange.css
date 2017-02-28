@@ -2,7 +2,24 @@ html,body{
     margin: 0px;
     padding: 0px;
 }
-
+#p1{
+    color: white;
+    padding-top: 510px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+}
+#p2{
+    color: white;
+    font-family: 'Quicksand', sans-serif; 
+    padding-top: 510px;
+    margin-left: 20px;
+}
+#gw{
+    color: firebrick; 
+}
+#cc{
+    color:cadetblue
+}
 
 /*maybe make the heading 2 seperate elements to make the bar have opacity and eventually implement the following header bar in JS*/
 /*#title{
