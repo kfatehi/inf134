@@ -1,4 +1,4 @@
-html,body{
+html,body,section,p{
     margin: 0px;
     padding: 0px;
 }
@@ -15,6 +15,11 @@ header{
     top: 0;
     opacity: .7;
 }
+
+section {
+  max-width: 100vw;
+}
+
 #gohome{
     float: right;
 }
@@ -39,16 +44,6 @@ header{
     left:0;
 }
 
-#page1{
-    height:100vh;
-    min-height:100%;
-    max-height:100%;
-    background-size:cover;
-    /*background: url(../deforestation/img/forest-whitespace.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
 .text{ 
     color: aliceblue;
     font-family: 'Quicksand', sans-serif; 
@@ -61,6 +56,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+/*
+ * lots of shitty pixel references here
+ * need to fix these
 #p1{
     font-size: 25px;
     padding: 10px;
@@ -83,109 +81,22 @@ a:hover{
     font-weight: 900;
 
 }
-
+*/
 #p4{
     
 }
-/*see if i can make the background a video like a picture*/
-/*video#forestvid{ 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-
-}*/
-
-/*img{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover; 
-}*/
 
 
-#page2{
+.page {
+  width: 100vw;
     height:100vh;
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url(../deforestation/img/tent.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#page3{
-    height:100vh;
-    min-height:100%;
-    max-height:100%;
-    background-size:cover;
-    background: url(../deforestation/img/wwfDeforest.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#page4{
-    height:100vh;
-    min-height:100%;
-    max-height:100%;
-    background-size:cover;
-    /*Credit:http://www.ucsusa.org/sites/default/files/legacy/assets/images/gw/Sumatra-land-clearing-istock.jpg*/
-    background: url(../deforestation/img/fireDeforestPalm.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#page5{
-    height:100vh;
-    min-height:100%;
-    max-height:100%;
-    background-size:cover;
-    background: url(../deforestation/img/koala.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#page6{
-    height:100vh;
-    min-height:100%;
-    max-height:100%;
-    background-size:cover;
-    background: url(../deforestation/img/forestsun.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*scolling stuff. Use JS for it later*/
-/*#scroll1{
-    text-align: center;
-    position: fixed;
-    bottom: 30px;
-    width: 100%;
-    color: black;
-}
-
-*/
-
-video {
+.page video {
   /* Make video to at least 100% wide and tall */
   min-width: 100%; 
   min-height: 100%; 
@@ -201,6 +112,43 @@ video {
   transform: translate(-50%,-50%);
   z-index: -1;
 }
+
+#page1 {
+  /* video */
+}
+
+#page2{
+    background-image: url(../deforestation/img/tent.jpg);
+}
+
+#page3{
+    background-image: url(../deforestation/img/wwfDeforest.jpg);
+}
+
+#page4{
+    /*Credit:http://www.ucsusa.org/sites/default/files/legacy/assets/images/gw/Sumatra-land-clearing-istock.jpg*/
+    background-image: url(../deforestation/img/fireDeforestPalm.jpg);
+}
+
+#page5{
+    background-image: url(../deforestation/img/koala.jpg);
+}
+
+#page6{
+    background-image: url(../deforestation/img/forestsun.jpg);
+}
+
+
+/*scolling stuff. Use JS for it later*/
+/*#scroll1{
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    color: black;
+}
+
+*/
 
 
 
