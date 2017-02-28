@@ -15,7 +15,15 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-  res.render('index', { topics, donutSize: '100px' });
+  res.render('index', { topics, donut: false });
+});
+
+app.get('/a', function(req, res) {
+  res.render('index', { topics, donut: false });
+});
+
+app.get('/b', function(req, res) {
+  res.render('index', { topics, donut: { size: '100px' } });
 });
 
 app.listen(app.get('port'), function() {

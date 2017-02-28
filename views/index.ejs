@@ -36,17 +36,19 @@
     </div>
   </nav>
 
+  <% if (donut) { %>
   <div class="donut" style="
     position: absolute;
     z-index: 5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: <%= donutSize %>;
-    width: <%= donutSize %>;
+    height: <%= donut.size %>;
+    width: <%= donut.size %>;
     background: white;
-    border-radius: <%= donutSize %>;
+    border-radius: <%= donut.size %>;
   "></div>
+<% } %>
   <% topics.forEach(topic => { %>
     <a href="/<%= topic.id %>" class="<%= topic.id %>" style="
       background: url(<%= topic.img %>) center center / cover no-repeat;
