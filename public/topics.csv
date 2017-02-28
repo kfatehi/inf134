@@ -1,5 +1,5 @@
-id,label,img
-deforestation,Deforestation,/img/HomeDeforest.jpg
-pollution,Pollution,/img/pollutionhome.jpg
-species-extinction,Species Extinction,/img/SpeciesExtinction.jpg
-climate-change,Climate Change,/img/half-half.jpeg
+id,label,img,style
+deforestation,Deforestation,/img/HomeDeforest.jpg,top:0;left:0
+pollution,Pollution,/img/pollutionhome.jpg,top:0;right:0
+species-extinction,Species Extinction,/img/SpeciesExtinction.jpg,bottom:0;right:0
+climate-change,Climate Change,/img/half-half.jpeg,bottom:0;left:0

@@ -36,26 +36,25 @@
     </div>
   </nav>
 
-  <div style="position: absolute;">
-    <div class="donut" style="
+  <div class="donut" style="
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: <%= donutSize %>;
+    width: <%= donutSize %>;
+    background: white;
+    border-radius: <%= donutSize %>;
+  "></div>
+  <% topics.forEach(topic => { %>
+    <a href="/<%= topic.id %>" class="<%= topic.id %>" style="
+      background: url(<%= topic.img %>) center center / cover no-repeat;
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: <%= donutSize %>;
-      width: <%= donutSize %>;
-      background: white;
-      border-radius: <%= donutSize %>;
-    "></div>
-    <% topics.forEach(topic => { %>
-      <a href="/<%= topic.id %>" class="<%= topic.id %>" style="
-        display: inline-block;
-        float: left;
-        width: calc(100vw / 2);
-        height: calc(100vh / 2);
-        background: url(<%= topic.img %>) center center / cover no-repeat;
-        "></a>
-    <% }) %>
-  </div>
+      height: 50%;
+      width: 50%;
+      <%= topic.style %>;
+      "></a>
+  <% }) %>
 </body>
 </html>
