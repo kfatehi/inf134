@@ -33,6 +33,14 @@ Had to use padding-top instead for now
     padding-top: 50px;
     margin-left: 400px;
 }
+#p4{
+    
+}
+#p5{
+    font-family: 'Quicksand', sans-serif; 
+    padding-top: 500px;
+    color: white;
+}
 
 /*maybe make the heading 2 seperate elements to make the bar have opacity and eventually implement the following header bar in JS*/
 /*#title{
@@ -102,7 +110,7 @@ header{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url();
+    background: url(../climate-change/img/earth-space.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
