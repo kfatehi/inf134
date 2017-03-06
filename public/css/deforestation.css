@@ -22,6 +22,8 @@ section {
 
 #gohome{
     float: right;
+    margin-top: -55px;
+    margin-right: 20px;
 }
 
 .containervid{
