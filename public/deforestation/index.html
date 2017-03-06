@@ -1,149 +1,164 @@
-<!DOCTYPE html>
 <html>
 <head>
+    <!-- <title>jQuery Progress Tracker</title> -->
     <title>Deforestation</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/deforestation.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Economica|Quicksand" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="../js/stickyheader.js"></script>
+    <script src="../js/stickyheader.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Dosis|Economica|Quicksand:700" rel="stylesheet">
-    <!--fix link for html and css after-->
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery.progresstracker.css">
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/demo.css"> -->
 </head>
-    
+
+
+
+
+
 <body>
 
-  <header>
-    <h1>DEFORESTATION</h1>
-    <a href="/" id="gohome">
-      <img src="../img/homeicon.png">
-    </a>
-  </header>
+    <header>
+        <h1>DEFORESTATION</h1>
+        <a href="/" id="gohome">
+            <img src="../img/homeicon.png">
+        </a>
+    </header>
 
 
+    <div class="container">
+        <div class="pt-section" data-name="Section One" id="ptsection-one">
+            <div class="page" id="page1">
+                <!-- <div id="title">
+                    <h1>DEFORESTATION</h1>
+                </div> -->
 
-    <div class="page" id="page1">
-        <!-- <div id="title">
-            <h1>DEFORESTATION</h1>
-        </div> -->
+                <!-- video used for full screen background-->
+                <!-- example http://www.stayandwander.com/ -->
+                <!-- <video playsinline autoplay muted loop id="forestvid">
+                    <source src="video/trees.mp4" type="video/mp4">
+                </video> -->
+                <!--If video doesn't work -->
+                <!-- <img src="img/forest-whitespace.jpg"> -->
+                <div class="containervid">
+                    <video src="video/trees.mp4" autoplay loop></video>
+                </div>     
+                <section id="p1" class="text">
+                    <p>Our world is home to forests that cover 31% of Earth's land surface.</p>   
+                    <p>Not only are they home to 80 percent of the world's terrestrial biodiversity, but they are a major source of oxygen in the atmosphere.</p>
+                    <p>300 million people call forests home and 1.6 billion depend on them to survive.</p>
+                </section>
+                <div id="scroll1">
+                    <h1><a href="#page2">SCROLL DOWN</a></h1>
+                </div>
+                <!-- <section id="scrolldown" class="demo">
+                    <h1>Scroll Down Button #7</h1>
+                    <a href="#section08"><span></span><span></span><span></span>Scroll</a>
+                </section> -->
+            </div>
+        </div>
 
-        <!-- video used for full screen background-->
-        <!-- example http://www.stayandwander.com/ -->
-        <!-- <video playsinline autoplay muted loop id="forestvid">
-            <source src="video/trees.mp4" type="video/mp4">
-        </video> -->
-        <!--If video doesn't work -->
-        <!-- <img src="img/forest-whitespace.jpg"> -->
-        <div class="container">
-        	<video src="video/trees.mp4" autoplay loop></video>
+
+        <div class="pt-section" data-name="Section Two" id="ptsection-two">
+            <div class="page" id="page2">
+                <!--background image-->
+                <!-- <img src="img/tent.jpg"> -->
+                <section id="p2" class="text">
+                    <p>Forests also serve as places for recreational activity.</p>
+                    <p>Do you like going camping, hiking, or biking in fresh air?</p>
+                    <p>Well you are not alone. Millions of other people travel from different parts of the world to escape to the forests to de-stress.</p>
+                </section>
+                <div id="scroll2">
+                    <h1><a href="#page3">SCROLL DOWN</a></h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pt-section" data-name="Section Three" id="ptsection-three">
+            <div class="page" id="page3">
+                <!--background image-->
+                <!-- <img src="img/deforest.jpg"> -->
+                <section id="p3" class="text">
+                    <p>Over the past 40 years, the rate of deforestation has significantly increased to satisfy the needs of the people.</p>
+                    <p>Land is needed for cropland and infrastructures.</p>
+                    <p>Wood is needed for fuel and paper.</p>
+                    <p>But, when deforestation occurs, the effects lead to serious consequences.</p>
+                </section>
+                <div id="scroll3">
+                    <h1><a href="#page4">SCROLL DOWN</a></h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pt-section" data-name="Section Four, the fourth section" id="ptsection-four">
+            <div class="page" id="page4">
+                <!--background image-->
+                <!--<img src="img/slashnburn.jpg">-->
+                <section class="text">
+                    <p>When the slash and burn technique is used to clear land for agricultural reasons, massive amounts of carbon dioxide are released into the atmosphere, contributing to <a href="../climate-change/index.html">Climate Change</a>.</p>
+                </section>
+                <!-- link to climate change topic --> 
+                <div id="scroll4">
+                    <h1><a href="#page5">SCROLL DOWN</a></h1>
+                </div>
+            </div>
         </div>
         
-        <section id="p1" class="text">
-            <p>Our world is home to forests that cover 31% of Earth's land surface.</p>   
-            <p>Not only are they home to 80 percent of the world's terrestrial biodiversity, but they are a major source of oxygen in the atmosphere.</p>
-            <p>300 million people call forests home and 1.6 billion depend on them to survive.</p>
-        </section>
 
-        <div id="scroll1">
-            <h1><a href="#page2">SCROLL DOWN</a></h1>
+        <div class="pt-section" data-name="Section Five" id="ptsection-five">
+            <div class="page" id="page5">
+                <!--background image-->
+                <!--         <img src="img/koala.jpg">--> <!--(Image via @ApesFinal)--> 
+                <section class="text">
+                <p>Animals are homeless.</p>
+                <p>They are left with limited resources and no place to go.</p>
+                <p>With no accessible food or shelter, they have the risk of becoming endangered or even <a href="../species-extinction/index.html">extinct.</a></p>
+                </section>
+                <div id="scroll5">
+                    <h1><a href="#page6">SCROLL DOWN</a></h1>
+                </div>
+            </div>
         </div>
+        
 
-		<!-- <section id="scrolldown" class="demo">
-			<h1>Scroll Down Button #7</h1>
-			<a href="#section08"><span></span><span></span><span></span>Scroll</a>
-		</section> -->
-
-    </div>
-
-
-
-
-    <div class="page" id="page2">
-
-        <!--background image-->
-        <!-- <img src="img/tent.jpg"> -->
-        <section id="p2" class="text">
-            <p>Forests also serve as places for recreational activity.</p>
-            <p>Do you like going camping, hiking, or biking in fresh air?</p>
-            <p>Well you are not alone. Millions of other people travel from different parts of the world to escape to the forests to de-stress.</p>
-        </section>
-        <div id="scroll2">
-            <h1><a href="#page3">SCROLL DOWN</a></h1>
-        </div>
-    </div>
-
-
-
-    <div class="page" id="page3">
-
-        <!--background image-->
-        <!-- <img src="img/deforest.jpg"> -->
-        <section id="p3" class="text">
-            <p>Over the past 40 years, the rate of deforestation has significantly increased to satisfy the needs of the people.</p>
-            <p>Land is needed for cropland and infrastructures.</p>
-            <p>Wood is needed for fuel and paper.</p>
-            <p>But, when deforestation occurs, the effects lead to serious consequences.</p>
-        </section>
-        <div id="scroll3">
-            <h1><a href="#page4">SCROLL DOWN</a></h1>
+        <div class="pt-section" data-name="Section Six" id="ptsection-six">
+            <div class="page" id="page6">
+                <!--background image-->
+                <!--<img src="img/forestsun.jpg">-->   
+                <section class="text">
+                    <p>Our world needs forests to absorb greenhouse gases, provide resources and shelter for millions of people and animals, and give people a place for recreational activities, to name a few. </p>
+                    <p>There are many organizations that want to fight deforestation and educate people about the serious repercussions associated with it.</p>
+                    <ul>
+                        <li>WWF started the Global Forest and Trade Network<a href="http://gftn.panda.org/" target="_blank">(GTFN)</a></li>
+                        <li><a href="http://www.eyesontheforest.or.id/index.php?page=content&cid=1" target="_blank">Eyes on the Forest</a> focuses on forest conservation and protecting the rights of people who rely on them.</li>
+                        <li>Cosmetic company, <a href="http://www.loreal.com/media/news/2014/jan/l%E2%80%99or%C3%A9al-committed-to-%C2%AB-0-deforestation-%C2%BB-by-2020" target="_blank">L'oreal</a>, is committed to "Zero Deforestation" by 2020.</li>
+                    </ul>
+                </section>
+                <div id="scroll6">
+                    <h1><a href="#page1">TOP</a></h1>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div class="page" id="page4">
- 
-        <!--background image-->
-
-        <!--<img src="img/slashnburn.jpg">-->
-        <section class="text">
-            <p>When the slash and burn technique is used to clear land for agricultural reasons, massive amounts of carbon dioxide are released into the atmosphere, contributing to <a href="../climate-change/index.html">Climate Change</a>.</p>
-        </section>
-        <!-- link to climate change topic --> 
-
-        <div id="scroll4">
-            <h1><a href="#page5">SCROLL DOWN</a></h1>
-        </div>
-    
-    </div>
-
-
-    <div class="page" id="page5">
-
-        <!--background image-->
-<!--         <img src="img/koala.jpg">--> <!--(Image via @ApesFinal)--> 
-        <section class="text">
-        <p>Animals are homeless.</p>
-        <p>They are left with limited resources and no place to go.</p>
-        <p>With no accessible food or shelter, they have the risk of becoming endangered or even <a href="../species-extinction/index.html">extinct.</a></p>
-        </section>
-        <div id="scroll5">
-            <h1><a href="#page6">SCROLL DOWN</a></h1>
-        </div>
-
-    </div>
-
-
-    <div class="page" id="page6">
-
-        <!--background image-->
-<!--         <img src="img/forestsun.jpg">
- -->   
-        <section class="text">
-            <p>Our world needs forests to absorb greenhouse gases, provide resources and shelter for millions of people and animals, and give people a place for recreational activities, to name a few. </p>
-            <p>There are many organizations that want to fight deforestation and educate people about the serious repercussions associated with it.</p>
-            <ul>
-                <li>WWF started the Global Forest and Trade Network<a href="http://gftn.panda.org/" target="_blank">(GTFN)</a></li>
-                <li><a href="http://www.eyesontheforest.or.id/index.php?page=content&cid=1" target="_blank">Eyes on the Forest</a> focuses on forest conservation and protecting the rights of people who rely on them.</li>
-                <li>Cosmetic company, <a href="http://www.loreal.com/media/news/2014/jan/l%E2%80%99or%C3%A9al-committed-to-%C2%AB-0-deforestation-%C2%BB-by-2020" target="_blank">L'oreal</a>, is committed to "Zero Deforestation" by 2020.</li>
-            </ul>
-        </section>
-        <div id="scroll6">
-            <h1><a href="#page1">TOP</a></h1>
-        </div>
-    </div>
-
-
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../js/jquery.progresstracker.js"></script>
+<script>
+    (function() {
+        $('body').progressTracker({
+            linking : true,
+            tooltip : "constant",
+            negativeTolerance : 0,
+            positiveTolerance : 0,
+            displayWhenActive : true,
+            disableBelow : 600
+        });
+    })();
+</script>
 </body>
-    
-    
 </html>
+
+
