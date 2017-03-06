@@ -1,10 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var parse = require('csv-parse/lib/sync');
-var csvFile = fs.readFileSync(__dirname+'/public/topics.csv');
-var topics = parse(csvFile, {columns: true});
-console.log(JSON.stringify(topics, null, 4));
+var topics = require('./topics');
 
 app.set('port', (process.env.PORT || 5000));
 

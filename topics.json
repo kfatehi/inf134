@@ -1,0 +1,26 @@
+[
+    {
+        "id": "deforestation",
+        "label": "Deforestation",
+        "img": "/img/HomeDeforest.jpg",
+        "style": "top:0;left:0"
+    },
+    {
+        "id": "pollution",
+        "label": "Pollution",
+        "img": "/img/pollutionhome.jpg",
+        "style": "top:0;right:0"
+    },
+    {
+        "id": "species-extinction",
+        "label": "Species Extinction",
+        "img": "/img/SpeciesExtinction.jpg",
+        "style": "bottom:0;right:0"
+    },
+    {
+        "id": "climate-change",
+        "label": "Climate Change",
+        "img": "/img/half-half.jpeg",
+        "style": "bottom:0;left:0"
+    }
+]
