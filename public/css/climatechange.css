@@ -2,9 +2,6 @@ html,body{
     margin: 0px;
     padding: 0px;
 }
-/*for some reason, when i try to do margin-top for climate change, it adds a big white space at the top of each section
-Had to use padding-top instead for now
-*/
 
 #p1{
     color: white;
