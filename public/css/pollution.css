@@ -82,7 +82,7 @@ header{
     min-height:100%;
     max-height:100%;
     background-size:cover;
-    background: url();
+    background: url(../pollution/img/pollution.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
