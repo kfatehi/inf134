@@ -142,19 +142,9 @@ a:hover{
 }
 
 
-/*scolling stuff. Use JS for it later*/
-/*#scroll1{
-    text-align: center;
-    position: fixed;
-    bottom: 30px;
-    width: 100%;
-    color: black;
-}
-
-*/
-
 
 .arrow {
+  margin-top: 75px;
   bottom: 0;
   left: 50%;
   margin-left:-20px;
