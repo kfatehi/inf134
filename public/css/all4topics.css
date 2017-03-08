@@ -193,6 +193,41 @@ a:hover{
     background-image: url(../climate-change/img/earth-space.jpg);
 }
 
+    color: white;
+    padding-top: 510px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+}
+    color: white;
+    font-family: 'Quicksand', sans-serif; 
+    padding-top: 460px;
+    margin-left: 20px;
+    width: 500px
+}
+#gw{
+    color: palevioletred; 
+}
+#cc{
+    color: skyblue;
+}
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    margin-left: 400px;
+}
+    
+}
+    font-family: 'Quicksand', sans-serif; 
+    padding-top: 500px;
+    color: white;
+}
+    text-decoration: none;
+    color: cadetblue;
+}
+    text-decoration: underline;
+
 
 
 
