@@ -118,10 +118,14 @@ a:hover{
 }
 
 
-#defpage1 {
+#defpage1{
   /* video */
 }
-
+#dp1{
+    padding-top: 45%; 
+    text-align: left;
+    padding-left: 5%;
+}
 #defpage2{
     background-image: url(../deforestation/img/tent.jpg);
 }
@@ -272,7 +276,7 @@ a:hover{
 
 
 .arrow {
-  margin-top: 75px;
+  margin-top: 25px;
   bottom: 0;
   left: 50%;
   margin-left:-20px;
