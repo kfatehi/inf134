@@ -117,6 +117,7 @@ a:hover{
   z-index: -1;
 }
 
+
 #defpage1 {
   /* video */
 }
@@ -168,6 +169,60 @@ a:hover{
 #polpage6{
     background-image: url(../pollution/img/pollution.jpg);
 }
+
+
+
+
+#ccpage1 {
+    background-image: url(../climate-change/img/hotsun.jpeg);
+}
+
+#ccpage2{
+    background-image: url(../climate-change/img/ice-sheet.jpeg);
+}
+
+#ccpage3{
+    background-image: url(../climate-change/img/city-cars-traffic-lights.jpeg);
+}
+
+#ccpage4{
+    background-image: url(../climate-change/img/city-sky-skyline-australia.jpg);
+}
+
+#ccpage5{
+    background-image: url(../climate-change/img/earth-space.jpg);
+}
+
+
+
+
+#extinctpage1 {
+    background-image: url(../species-extinction/img/flamingos.jpg);
+}
+
+#extinctpage2{
+    background-image: url(../species-extinction/img/dying-elephant.jpg);
+}
+
+#extinctpage3{
+    background-image: url(../species-extinction/img/global-warming.jpg);
+}
+
+#extinctpage4{
+    background-image: url(../species-extinction/img/waterfront.jpg);
+}
+
+#extinctpage5{
+    background-image: url(../species-extinction/img/lions.jpg);
+}
+
+
+
+
+
+
+
+
 
 
 
