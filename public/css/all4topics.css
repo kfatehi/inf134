@@ -62,6 +62,7 @@ a:hover{
 /*
  * lots of shitty pixel references here
  * need to fix these
+ make sure we specify p1, p2 ... for each topic since i combined all into 1 css
 #p1{
     font-size: 25px;
     padding: 10px;
@@ -84,11 +85,11 @@ a:hover{
     font-weight: 900;
 
 }
-*/
+
 #p4{
     
 }
-
+*/
 
 .page {
   width: 100vw;
@@ -116,30 +117,59 @@ a:hover{
   z-index: -1;
 }
 
-#page1 {
+#defpage1 {
   /* video */
 }
 
-#page2{
+#defpage2{
     background-image: url(../deforestation/img/tent.jpg);
 }
 
-#page3{
+#defpage3{
     background-image: url(../deforestation/img/wwfDeforest.jpg);
 }
 
-#page4{
+#defpage4{
     /*Credit:http://www.ucsusa.org/sites/default/files/legacy/assets/images/gw/Sumatra-land-clearing-istock.jpg*/
     background-image: url(../deforestation/img/fireDeforestPalm.jpg);
 }
 
-#page5{
+#defpage5{
     background-image: url(../deforestation/img/koala.jpg);
 }
 
-#page6{
+#defpage6{
     background-image: url(../deforestation/img/forestsun.jpg);
 }
+
+
+
+
+#polpage1 {
+    background-image: url(../pollution/img/pollution2.jpg);
+}
+
+#polpage2{
+    background-image: url(../pollution/img/land-pollution.jpg);
+}
+
+#polpage3{
+    background-image: url(../pollution/img/air-pollution.png);
+}
+
+#polpage4{
+    background-image: url(../pollution/img/water-pollution.jpg);
+}
+
+#polpage5{
+    background-image: url(../pollution/img/light-pollution.jpg);
+}
+
+#polpage6{
+    background-image: url(../pollution/img/pollution.jpg);
+}
+
+
 
 
 
@@ -151,10 +181,10 @@ a:hover{
 }
 
 .bounce {
-	-webkit-animation-name: bounce;
-	-moz-animation-name: bounce;
-	-o-animation-name: bounce;
-	animation-name: bounce;
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  animation-name: bounce;
 }
 .animated{-webkit-animation-fill-mode:both;
 -moz-animation-fill-mode:both;
@@ -175,23 +205,23 @@ animation-duration:2s;
 
 
 @-webkit-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
 }
 
 @-moz-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-	40% {-moz-transform: translateY(-30px);}
-	60% {-moz-transform: translateY(-15px);}
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
 }
 
 @-o-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-	40% {-o-transform: translateY(-30px);}
-	60% {-o-transform: translateY(-15px);}
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
 }
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }
