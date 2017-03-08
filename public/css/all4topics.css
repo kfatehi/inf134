@@ -193,11 +193,13 @@ a:hover{
     background-image: url(../climate-change/img/earth-space.jpg);
 }
 
+#ccp1{
     color: white;
     padding-top: 510px;
     font-family: 'Quicksand', sans-serif;
     margin-left: 20px;
 }
+#ccp2{
     color: white;
     font-family: 'Quicksand', sans-serif; 
     padding-top: 460px;
@@ -210,6 +212,7 @@ a:hover{
 #cc{
     color: skyblue;
 }
+#ccp3{
     color:white;
     font-family: 'Quicksand', sans-serif;
     width: 500px;
@@ -217,16 +220,21 @@ a:hover{
     padding-top: 50px;
     margin-left: 400px;
 }
+#ccp4{
     
 }
+#ccp5{
     font-family: 'Quicksand', sans-serif; 
     padding-top: 500px;
     color: white;
 }
+#ccp5 ul a{
     text-decoration: none;
     color: cadetblue;
 }
+#ccp5 ul a:hover{
     text-decoration: underline;
+}
 
 
 
