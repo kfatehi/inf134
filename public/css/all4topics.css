@@ -47,11 +47,7 @@ section {
     left:0;
 }
 
-.text{ 
-    color: aliceblue;
-    font-family: 'Muli',sans-serif; 
-    text-decoration: none;
-}
+
 a{
     text-decoration: none; 
     color: #87CEFA; 
@@ -121,33 +117,69 @@ a:hover{
 #defpage1{
   /* video */
 }
+/*sections are dp(number) */
 #dp1{
-    padding-top: 45%; 
+    padding-top: 39%; 
     text-align: left;
     padding-left: 5%;
+    font-size: 150%;
+    padding-right: 10%;
 }
 #defpage2{
-    background-image: url(../deforestation/img/tent.jpg);
+    background-image: url(../deforestation/img/tent-night.jpg);
+}
+#dp2{
+    padding-top: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 115%; 
+    padding-bottom: 18%
+    
 }
 
 #defpage3{
     background-image: url(../deforestation/img/wwfDeforest.jpg);
+  
 }
-
+#dp3{
+    padding-top: 40%;
+    font-size: 125%;
+    
+}
 #defpage4{
     /*Credit:http://www.ucsusa.org/sites/default/files/legacy/assets/images/gw/Sumatra-land-clearing-istock.jpg*/
     background-image: url(../deforestation/img/fireDeforestPalm.jpg);
 }
+#dp4{
 
+    padding-top: 40%;
+    font-size: 140%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 #defpage5{
     background-image: url(../deforestation/img/koala.jpg);
 }
+#dp5{
+    padding-top: 30%;
+    font-size: 150%;
+    text-align: left;
+    padding-right: 50%;
+    padding-left: 10%;
 
-#defpage6{
-    background-image: url(../deforestation/img/forestsun.jpg);
 }
 
+#defpage6{
+    background-image: url(../deforestation/img/forest3.jpeg);
+}
 
+#dp6{
+    text-align: left;
+    padding-top: 38%;
+    font-size: 120%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 
 #polpage1 {
@@ -186,7 +218,7 @@ a:hover{
 }
 
 #ccpage3{
-    background-image: url(../climate-change/img/city-cars-traffic-lights.jpeg);
+    background-image: url(../climate-change/img/city-cars.jpg);
 }
 
 #ccpage4{
@@ -198,17 +230,15 @@ a:hover{
 }
 
 #ccp1{
-    color: white;
-    padding-top: 510px;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 20px;
+    padding-top: 42%;
+    font-size: 120%;
 }
 #ccp2{
-    color: white;
-    font-family: 'Quicksand', sans-serif; 
-    padding-top: 460px;
-    margin-left: 20px;
-    width: 500px
+    padding-top: 42%;
+    padding-left: 10%;
+    padding-right: 25%;
+    text-align: left;
+    
 }
 #gw{
     color: palevioletred; 
@@ -216,21 +246,22 @@ a:hover{
 #cc{
     color: skyblue;
 }
+#gg{
+    color:forestgreen;
+}
 #ccp3{
-    color:white;
-    font-family: 'Quicksand', sans-serif;
-    width: 500px;
-    background: rgba(0, 0, 0, 0.5);
-    padding-top: 50px;
-    margin-left: 400px;
+    padding-top: 38%;
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    
 }
 #ccp4{
     
 }
 #ccp5{
-    font-family: 'Quicksand', sans-serif; 
-    padding-top: 500px;
-    color: white;
+  
 }
 #ccp5 ul a{
     text-decoration: none;
@@ -264,19 +295,8 @@ a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .arrow {
-  margin-top: 25px;
+  margin-top: 10px;
   bottom: 0;
   left: 50%;
   margin-left:-20px;
