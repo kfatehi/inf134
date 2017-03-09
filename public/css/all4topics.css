@@ -55,6 +55,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+ul li {
+  list-style-type: none; 
+}
 /*
  * lots of shitty pixel references here
  * need to fix these
@@ -185,27 +188,65 @@ a:hover{
 #polpage1 {
     background-image: url(../pollution/img/pollution2.jpg);
 }
+.pol1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 28%;
+  padding-bottom: 10%;
+  text-align: center;
+}
 
 #polpage2{
     background-image: url(../pollution/img/land-pollution.jpg);
+}
+.pol2 {
+  padding-left: 5%;
+  padding-right: 30%;
+  padding-top: 8%;
+  padding-bottom:28%;
+  text-align: left;
 }
 
 #polpage3{
     background-image: url(../pollution/img/air-pollution.png);
 }
+.pol3 {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 35%;
+  padding-bottom: 2%;
+  text-align: center;
+}
 
 #polpage4{
     background-image: url(../pollution/img/water-pollution.jpg);
 }
-
+.pol4 {
+  padding-left: 60%;
+  padding-right: 10%;
+  padding-top: 35%;
+  padding-bottom:5%;
+  text-align: left;
+  color: black;
+}
 #polpage5{
     background-image: url(../pollution/img/light-pollution.jpg);
+}
+.pol5 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-bottom: 28%;
+  text-align: center;
 }
 
 #polpage6{
     background-image: url(../pollution/img/pollution.jpg);
 }
-
+.pol6 {
+  padding: 30%;
+  text-align: center;
+}
 
 
 
@@ -296,18 +337,22 @@ a:hover{
 
 #extinctpage1 {
     background-image: url(../species-extinction/img/flamingos.jpg);
+
 }
 
 #extinctpage2{
     background-image: url(../species-extinction/img/dying-elephant.jpg);
+    color: black;
 }
 
 #extinctpage3{
     background-image: url(../species-extinction/img/global-warming.jpg);
+    color: black;
 }
 
 #extinctpage4{
     background-image: url(../species-extinction/img/waterfront.jpg);
+    color: black;
 }
 
 #extinctpage5{
