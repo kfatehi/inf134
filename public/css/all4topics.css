@@ -222,7 +222,7 @@ a:hover{
 }
 
 #ccpage4{
-    background-image: url(../climate-change/img/city-sky-skyline-australia.jpg);
+    background-image: url(../climate-change/img/ocean-sun.jpeg);
 }
 
 #ccpage5{
@@ -234,8 +234,8 @@ a:hover{
     font-size: 120%;
 }
 #ccp2{
-    padding-top: 42%;
-    padding-left: 10%;
+    padding-top: 43%;
+    padding-left: 8%;
     padding-right: 25%;
     text-align: left;
     
@@ -244,11 +244,9 @@ a:hover{
     color: palevioletred; 
 }
 #cc{
-    color: skyblue;
+    color:#84bc82;
 }
-#gg{
-    color:forestgreen;
-}
+
 #ccp3{
     padding-top: 38%;
     font-size: 110%;
@@ -257,11 +255,31 @@ a:hover{
     text-align: left;
     
 }
+#power{
+    color:#f94d70;
+}
+#light{
+    color: #f9ef63;
+}
+#produce{
+    color: #44844a;
+}
 #ccp4{
-    
+    padding-top: 29%;
+    text-align: left;
+    padding-left: 5%;
+}
+#sw{
+    font-size: 150%;
+    color: 
+}
+#ccp4 ul{
+    display: inline-block;
 }
 #ccp5{
-  
+    text-align: left;
+    padding-top: 42%;
+    padding-left: 18%;
 }
 #ccp5 ul a{
     text-decoration: none;
