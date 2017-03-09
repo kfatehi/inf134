@@ -230,13 +230,15 @@ a:hover{
 }
 
 #ccp1{
-    padding-top: 42%;
-    font-size: 120%;
+    padding-top: 25%;
+    font-size: 110%;
+    padding-bottom: 15%;
+    color: black;
 }
 #ccp2{
-    padding-top: 43%;
-    padding-left: 8%;
-    padding-right: 25%;
+    padding-top: 35%;
+    padding-left: 3%;
+    padding-right: 60%;
     text-align: left;
     
 }
