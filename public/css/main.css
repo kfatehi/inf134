@@ -13,6 +13,28 @@ a.topic:hover {
   opacity: 1;
 }
 
+a.topic .title {
+  bottom: 50%;
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+
+  font-size: 2em;
+  color: #FFF;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  visibility: hidden;
+}
+
+a.topic:hover .title {
+  visibility: initial;
+}
+
 
 .navbar-header {
   float: none;
